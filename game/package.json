@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "^14.2.13",
+    "pg": "^8.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "dev": "DATABASE_URL=postgresql://hans:egon34@10.0.145.120:5432/stadt next dev ",
+    "dev:docker":  "DATABASE_URL=postgresql://hans:egon34@db:5432/stadt next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
